@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "hello"
+echo "List of Blobs:"
+echo ""
 
+bosh blobs
