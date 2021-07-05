@@ -1,0 +1,6 @@
+# action.yml
+name: 'Bosh Blob Updater'
+description: 'Given a bosh blob to update, will pull the latest blob and update config/blobs.yml'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
